@@ -12,9 +12,11 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #373737;
   font-size: 1em;
   line-height: 1.4;
+  background-color:#fbfbfb;
+  font-family: 'Rubik', sans-serif;
 }
 
 /*
@@ -261,3 +263,26 @@ textarea {
   }
 }
 
+.hero{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width:600px;
+  margin:auto;
+  text-align: center;
+  height:100vh;
+}
+
+.hero__logo{
+  width:100%;
+}
+
+.hero__footer{
+  margin-top:auto;
+  margin-bottom:35px;
+}
+
+.hero__ig{
+  width:35px;
+}
